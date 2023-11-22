@@ -1,18 +1,18 @@
 import random
 
-#the game, with loop function
-while True:  
+# the game, with loop function
+while True:
     player_move = input("Make your move (rock, paper, scissors):")
     moves = ["rock", "paper", "scissors"]
     if player_move in moves:
         computer_move = random.choice(moves)
-    elif [""]: 
+    elif [""]:
         print("Make a valid choice!")
-        continue       
-    
+        continue
+
     print(f"\nYour choice {player_move}, computers choice {computer_move}.\n")
-            
-    #outcomes to determine winner  
+
+    # outcomes to determine winner
     if player_move == computer_move:
         print(f"It's a tie! Both chose {player_move}")
     elif player_move == "rock":
@@ -31,11 +31,9 @@ while True:
         else:
             print("Scissors beats paper! You lose...")
 
-    
-
-    #question for player to continue och quit game
+    # question for player to continue och quit game
     do_over = input("One more time? (yes/no):")
-    
+
     if do_over.lower() == "no":
         break
     if do_over.lower() == "yes":
