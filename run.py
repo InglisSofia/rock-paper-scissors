@@ -2,7 +2,7 @@ import random
 
 # the game, with loop function
 while True:
-    player_move = input("Make your move (rock, paper, scissors):")
+    player_move = input("Make your move (rock, paper, scissors):\n")
     moves = ["rock", "paper", "scissors"]
     if player_move in moves:
         computer_move = random.choice(moves)
@@ -32,7 +32,7 @@ while True:
             print("Scissors beats paper! You lose...")
 
     # question for player to continue och quit game
-    do_over = input("One more time? (yes/no):")
+    do_over = input("One more time? (yes/no):\n")
 
     if do_over.lower() == "no":
         break
@@ -40,4 +40,4 @@ while True:
         continue
     else:
         print("Make a valid choice! (yes/no)")
-        do_over = input("One more time? (yes/no):")
+        do_over = input("One more time? (yes/no):\n")
