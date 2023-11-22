@@ -24,8 +24,14 @@ while True:
             print("Paper beats rock! You win!")
         else:
             print("Scissors beat paper! You lose...")
-#question for player to continue or quit the game
+#question for player to continue och quit game
     do_over = input("One more time? (yes/no):")
     if do_over.lower() == "no":
         break
+    if do_over.lower() == "yes":
+        continue
+    else:
+        print("Make a valid choice! (yes/no)")
+        break
+
 
