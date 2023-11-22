@@ -1,3 +1,7 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import random
+
+#the game moves
+player_move = input("Make your move (rock, paper, scissors):")
+moves = ["rock", "paper", "scissors"]
+computer_move = random.choice(moves)
+print(f"\nYour choice {player_move}, computers choice {computer_move}.\n")
