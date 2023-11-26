@@ -75,4 +75,11 @@ The game has been run through the CI Python Linter without any errors.
 
 ## Deployment
 
+- Add new line caracter to the strings inside inputs, in order to show text in mock terminal
+- Create new app and give it a unique name
+- In Settings, add buildpacks "python" and "nodejs". Check that buildpacks are in the right order with "python" on top
+- In Deploy section, choose deployment method GitHub
+- Search for repository name and click "connect" to link Heroku app to GitHub repository code
+- Choose manual deploy by clicking "Deploy Branch" and wait until message shows the app was successfully deployed
+
 
