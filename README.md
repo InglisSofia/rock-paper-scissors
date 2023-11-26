@@ -68,11 +68,11 @@ The game has been run through the CI Python Linter without any errors.
 
 ## Bugs
 
-### Unsolved bugs
+### Unsolved bugs and errors
 
 - When player makes an invalid choice more than once when asked to continue game (yes/no) the game automatically continues after the second invalid input.
-- In the live version, if player answers "no" when asked to continue game the game breaks. However if an invalid input is made first, the player types "no" the game continues. This doesn't happen when testing in Codeanywhere.
+- If player answers "no" when asked to continue game, the game breaks. However if an invalid input is made the first time and then the player types "no", the game continues. 
 
 ## Deployment
 
-Step by step how the deployment wnt on
+
